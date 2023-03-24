@@ -7,7 +7,7 @@ import {stime} from './components/Sstopwatchs';
 const SocketContext = createContext();
 //q
 // const socket = io('http://localhost:5000');
-const socket = io('https://seashell-app-55chy.ondigitalocean.app/');
+const socket = io('http://localhost:3000/');
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
